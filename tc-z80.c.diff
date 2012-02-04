@@ -1,0 +1,10 @@
+--- binutils-2.22/gas/config/tc-z80.c.orig	2011-12-23 17:17:55.860988588 +0100
++++ binutils-2.22/gas/config/tc-z80.c	2011-12-23 17:17:59.969093857 +0100
+@@ -702,6 +702,7 @@
+       fixp = fix_new_exp (frag_now, p - frag_now->fr_literal, 1, val,
+ 			  (r_type == BFD_RELOC_8_PCREL) ? TRUE : FALSE, r_type);
+       /* FIXME : Process constant offsets immediately.  */
++      (void)fixp;
+     }
+ }
+ 
