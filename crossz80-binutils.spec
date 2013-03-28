@@ -5,12 +5,12 @@ Summary(pl.UTF-8):	Skrośne narzędzia programistyczne GNU dla Z80 - binutils
 Summary(pt_BR.UTF-8):	Utilitários para desenvolvimento de binários da GNU - Z80 binutils
 Summary(tr.UTF-8):	GNU geliştirme araçları - Z80 binutils
 Name:		crossz80-binutils
-Version:	2.22
+Version:	2.23.1
 Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.gnu.org/gnu/binutils/binutils-%{version}.tar.bz2
-# Source0-md5:	ee0f10756c84979622b992a4a61ea3f5
+# Source0-md5:	33adb18c3048d057ac58d07a3f1adb38
 Patch0:		tc-z80.c.diff
 URL:		http://sources.redhat.com/binutils/
 BuildRequires:	automake
