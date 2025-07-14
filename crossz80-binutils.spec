@@ -54,7 +54,7 @@ Ten pakiet zawiera wersję skrośną generującą kod dla procesora Z80.
 
 %prep
 %setup -q -n binutils-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 cp /usr/share/automake/config.sub .
